@@ -1,7 +1,9 @@
 # Lab1_Blackjack
 ![image](https://user-images.githubusercontent.com/54459436/162554191-b47e7605-616b-4927-a334-cc8919420656.png)
+
 Try to play: https://dylanson25.github.io/Lab1_Blackjack/index.html
- This is a basic practice using Vanilla Js where a basic solitaire game was played.
+
+This is a basic practice using Vanilla Js where a basic solitaire game was played.
  ## requirement
  
  - Private variables.
