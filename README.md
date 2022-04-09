@@ -13,5 +13,5 @@ This is a basic practice using Vanilla Js where a basic solitaire game was playe
   - If the player gets less than 21 the computer will draw cards to get a number closer to 21
   - If the player exceeds 21, the computer wins.
  
- Design:
+ ## Design:
  ![image](https://user-images.githubusercontent.com/54459436/162554340-2af9c9c2-6214-4aa8-89b8-303216c79360.png)
