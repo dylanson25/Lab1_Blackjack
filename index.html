@@ -19,14 +19,14 @@
     <div class="row mt-2">
       <div id="divBotones" class="col text-center">
         <button id="btnNuevo" class="btn btn-danger">Nuevo juego</button>
-        <button id="btnPedir" class="btn btn-primary">Pedir carta</button>
-        <button id="btnDetener" class="btn btn-primary">Detener</button>
+        <button disabled="disabled" id="btnPedir" class="btn btn-primary">Pedir carta</button>
+        <button disabled="disabled" id="btnDetener" class="btn btn-primary">Detener</button>
       </div>
     </div>
     <div class="row conteiner m-2">
         <div class="col">
             <h3>Jugador 1- <small> 0 </small></h3>
-            <div id="jugador-cartas">
+            <div id="jugador-cartas" class="divCartas">
             </div>
         </div>
     </div>
@@ -34,11 +34,14 @@
     <div class="row conteiner m-2">
         <div class="col">
             <h3>Computadora- <small> 0 </small></h3>
-            <div id="computadora-cartas">
+            <div id="computadora-cartas" class="divCartas">
             </div>
         </div>
     </div>
 
     <script src="assets/js//juego.js"></script>
+    <script>
+      modulo.nuevoJuego()
+    </script>
   </body>
 </html>
